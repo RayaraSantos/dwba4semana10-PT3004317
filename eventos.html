@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+
+  <script src="js/submenu.js">
+  </script>
+
+  <title>Eventos - IFSP - Pirituba - DWBA4</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/submenu.css" type="text/css">
+
+</head>
+<body>
+  <header id = "cabecalho">
+  
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html"> HOME </a></li>
+        <li><a href="eventos.html"> EVENTOS</a></li>
+        <li><a href="contato.html"> CONTATO </a></li>
+        <li id="desmenu" onmouseover="amenu()" onmouseout="fmenu()"><a href=""> CURSOS </a>
+          <div id="submenu" onmouseover="amenu()" onmouseout="fmenu()">
+           <a href="ads.html"> Analise e Desenvolvimento de Sistemas </a>
+           <a href="menu.html"> Engenharia de Produção </a></li>
+          </div>
+        
+        </li>
+        <li><a href="entrar.html"> ENTRAR </a></li>
+        <li id="l-sobre"><a href="sobre.html"> SOBRE </a></li>
+      </ul>
+    </nav>
+
+    <img src="Imagens/Logo.jpg" alt="Logo IFSP">
+
+</header>
+
+
+
+<h1>Inscreva-se</h1>
+
+<form id = "Eventos">
+  <fieldset>
+    Evento <br/>
+    <select name = "Lista de Eventos" class="list">
+      <option value = "-- Selecione --"> -- Selecione -- </option>
+      <option value = "Voe sem asas"> Voe sem asas </option>
+      <option value = "Festa junina"> Festa junina </option>
+      <option value = "Semana da tecnologia"> Semana da tecnologia </option>
+      </select>
+  </fieldset>
+
+<fieldset>
+ <legend>Informações de Acesso</legend>
+  Usuário: <input name = "usuario" class="list"><br/>
+  <br/>
+  Senha: <input name = "senha" type="password" class="list">
+  <br/><br/>
+  Confirme a senha: <input name = "conf. senha" type="password" class="list">
+</fieldset>
+
+<fieldset>
+<legend>Informações Pessoais</legend>
+  Nome Completo:<input name = "Nome Completo" class="list"><br/>
+  <br/>
+  E-mail: <input name = "E-mail" type = "email" class="list"> <br/>
+  <br/>
+  Celular (99) 9999-99999: <input name = "Celular" type = "tel" class="list"><br/><br/>
+
+    <fieldset id="sexo">
+    <legend>Sexo</legend>
+
+      <p id="s"><label for="input_feminino">Feminino</label>
+        <input type="radio" value="Feminino" name="lp">
+        <label for="input_masculino">Masculino</label>
+        <input type="radio" value="Masculino" name="lp">
+      </p>
+
+    </fieldset>
+
+  <label for="input_data">Data de Nascimento</label>
+    <input type="date" value="Data de nascimento" name="data">
+  <br/><br/>
+  <label for="input_cor">Cor favorita</label>
+    <input type="color" value="Cor Favorita" name = "Cor">
+  <br/><br/>
+  <label for="input_git">Perfil no GitHub</label>
+    <input type="url" value="" name = "Git" class="list">
+</fieldset>
+<p><button type="submit" class="botao">Inscrever</button></p>
+
+<p><button type="reset" class="botao ">Limpar</button></p>
+
+</form>
+
+
+
+<footer>
+  <a href="https://www.facebook.com/ifsppirituba"> <img src="Imagens/facebook.png" alt="Logo facebook" width="30px"></a>
+
+  <p><b>IFSP - Câmpus Pirituba </b> - Av. Mutinga, 951 - Jardim Santo Elias - <b>CEP</b>: 05110-000 - São Paulo/SP - <b>Contato:</b> (011)2504-0100 </p>
+</footer>
+
+</body>
+</html>

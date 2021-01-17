@@ -1,0 +1,80 @@
+html,body {
+  height: 100%;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+nav{
+  background-color: #333333;
+  height: 47px;
+
+}
+
+nav ul{
+  text-decoration: none;
+  color: white;
+}
+
+#menu{ /* Alinhamento e estilo da lista (menu)*/
+  padding-top: 12px;
+  padding-left: 0px;
+  list-style: none;
+}
+
+#menu li{ /*Lista organizado em linha e espaçamento dos elementos*/
+  display: inline;
+  padding: 11px 15px;
+
+}
+
+
+#menu a{ /*Estilo dos links do menu*/
+  text-decoration: none;
+  color: white;
+}
+
+#menu li:hover{/*Cor de fundo do menu*/
+  background-color: red;
+}
+
+#l-sobre{ /*Alinhando o "sobre" na direita*/
+  float: right;
+  margin-top: -12px;
+}
+
+header{ /*Cor da imagem de fundo*/
+  background-color: green;
+}

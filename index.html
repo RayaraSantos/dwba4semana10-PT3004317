@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+
+
+  <script src="js/submenu.js">
+  </script>
+
+
+  <title> HOME - IFSP - Pirituba - DWBA4 </title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/menuc.css" type="text/css">
+  <link rel="stylesheet" href="css/submenu.css" type="text/css">
+</head>
+
+<body>
+
+  <header id="cabecalho">
+
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html"> HOME </a></li>
+        <li><a href="eventos.html"> EVENTOS</a></li>
+        <li><a href="contato.html"> CONTATO </a></li>
+        <li id="desmenu" onmouseover="amenu()" onmouseout="fmenu()"><a href=""> CURSOS </a>
+          <div id="submenu" onmouseover="amenu()" onmouseout="fmenu()">
+           <a href="ads.html"> Analise e Desenvolvimento de Sistemas </a>
+           <a href="menu.html"> Engenharia de Produção </a></li>
+          </div>
+        
+        </li>
+        <li><a href="entrar.html"> ENTRAR </a></li>
+        <li id="l-sobre"><a href="sobre.html"> SOBRE </a></li>
+      </ul>
+    </nav>
+
+    <img src="Imagens/Logo.jpg" alt="Logo IFSP">
+
+  </header>
+
+
+  <!--Menu Carrossel-->
+  <div class="menu-carrossel">
+
+    <div class="slides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="Imagens/A.png" style="width:100%">
+    </div>
+
+    <div class="slides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="Imagens/B.jpg" style="width:100%">
+    </div>
+
+    <div class="slides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="Imagens/C.jpg" style="width:100%">
+    </div>
+
+    <div class="slides fade">
+      <div class="numbertext">4 / 4</div>
+
+      <h1>Conheça os desafios de inovação</h1>
+
+      <div class="videoWrapper">
+
+        <p align="center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/5g5LQe3m8Po" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p>
+
+      </div>
+
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  </div>
+
+  <br>
+
+  <div style="text-align:center">
+
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+
+  </div>
+
+ <!--Fim do  Menu Carrossel-->
+
+<!--Imagens/Informativos página inicial -->
+  <section id="container">
+
+    <div id="eventos" class="grid-container">
+
+      <div class="grid-item">
+        <img src="Imagens/eleicoes.jpg" alt="Logo eleicoes">
+        <p><strong> Radar IFSP: informe-se sobre as eleições do dia 13 de outubro </strong></p>
+        <p>Todos os alunos e servidores podem votar; acesse aqui a cabine de votação online do seu câmpus </p>
+      </div>
+
+      <div class="grid-item">
+        <img src="Imagens/snct.jpg" alt="Atividades de pesquisa">
+        <p><strong> IFSP: SNCT reúne atividades entre 19 e 24 de outubro </strong></p>
+        <p> Programação reunirá iniciativas para aproximar pesquisadores e atividades culturais </p>
+      </div>
+
+      <div class="grid-item">
+        <img src="Imagens/residencia.png" alt="Residência Pedagógica">
+        <p><strong>IFSP oferece bolsa aos voluntários da Residência Pedagógica </strong></p>
+        <p>Bolsa de R$ 400,00 será paga pelo período de três meses </p>
+      </div>
+
+      <div class="grid-item">
+        <img src="Imagens/maratona.jpeg" alt="InterIF">
+        <p><strong> Inscrições abertas para a III Maratona InterIF </strong></p>
+        <p> Maratona de programação do IFSP será realizada online, no dia 31 de outubro; inscrições até 26 de outubro
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+<!--Fim das Imagens/Informativos página inicial -->
+
+
+  <footer>
+
+    <a href="https://www.facebook.com/ifsppirituba"> <img src="Imagens/facebook.png" alt="Logo facebook"
+        width="30px"></a>
+
+    <p><b>IFSP - Câmpus Pirituba </b> - Av. Mutinga, 951 - Jardim Santo Elias - <b>CEP</b>: 05110-000 - São Paulo/SP -
+      <b>Contato:</b> (011)2504-0100 </p>
+
+    <script src="js/mcarrossel.js">
+    </script>
+
+  </footer>
+
+</body>
+
+</html>

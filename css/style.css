@@ -1,0 +1,189 @@
+nav{
+    background-color: #333333;
+    height: 40px;
+
+}
+
+nav ul{
+    text-decoration: none;
+    color: white;
+}
+
+#menu{ /* Alinhamento e estilo da lista (menu)*/
+    padding-top: 12px;
+    padding-left: 0px;
+    list-style: none;
+}
+
+#menu li{ /*Lista organizado em linha e espaçamento dos elementos*/
+    display: inline;
+    padding: 11px 15px;
+
+}
+
+
+#menu a{ /*Estilo dos links do menu*/
+    text-decoration: none;
+    color: white;
+}
+
+#menu li:hover{/*Cor de fundo do menu*/
+    background-color: red;
+}
+
+#l-sobre{ /*Alinhando o "sobre" na direita*/
+    float: right;
+    margin-top: -12px;
+}
+
+header{ /*Cor da imagem de fundo*/
+    background-color: green;
+}
+
+#eventos{
+    text-align: center;
+}
+
+#sejararo{ /*Imagem redonda*/
+    border-radius: 50%;
+}
+
+#eventos figcaption{ /*Legenda da imagem*/
+    border: 1px dotted blue;
+}
+
+#video-inovacao{
+    text-align: center;
+}
+
+.list{ /*Definição dos campos de preenchimento*/
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+}
+
+#sexo{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+#s{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 8px;
+
+}
+
+.botao{ /*definição dos botões*/
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #4caf50;
+    border-radius: 4px;
+    border: 1px solid #4caf50;
+    color: white;
+}
+
+.fundo{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 16px;
+}
+
+.grid-container{ /*Definição das imagens em grid*/
+   display: inline-grid;
+   grid-template-columns: auto auto;
+   grid-column-gap: 70px ;
+   margin-top: 30px;
+}
+
+.grid-item img{/*Alterações por item*/
+    width: 250px;
+}
+
+.grid-item{
+    font-size: 12px;
+}
+
+#container{
+    text-align: center;
+}
+
+* {box-sizing: border-box}
+
+.menu-carrosel{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.slides{
+    display: none;
+}
+
+.antes, .depois{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.depois{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.antes:hover, .depois:hover{
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.ntext{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dot:hover{
+    background-color: #717171;
+}
+
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }

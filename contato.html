@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon">
+
+  <script src="js/submenu.js">
+  </script>
+
+  <title>Contato - IFSP - Pirituba - DWBA4</title>
+
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <link rel="stylesheet" href="css/submenu.css" type="text/css">
+
+</head>
+<body>
+  <header id = "cabecalho">
+  
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html"> HOME </a></li>
+        <li><a href="eventos.html"> EVENTOS</a></li>
+        <li><a href="contato.html"> CONTATO </a></li>
+        <li id="desmenu" onmouseover="amenu()" onmouseout="fmenu()"><a href=""> CURSOS </a>
+          <div id="submenu" onmouseover="amenu()" onmouseout="fmenu()">
+           <a href="ads.html"> Analise e Desenvolvimento de Sistemas </a>
+           <a href="menu.html"> Engenharia de Produção </a></li>
+          </div>
+        
+        </li>
+        <li><a href="entrar.html"> ENTRAR </a></li>
+        <li id="l-sobre"><a href="sobre.html"> SOBRE </a></li>
+      </ul>
+    </nav>
+
+  <img src="Imagens/Logo.jpg" alt="Logo IFSP">
+
+</header>
+
+<h1>Mande uma mensagem</h1>
+<form>
+  <ul>
+    <li><label for="input_nome" >Nome</label><input name = "Nome" class="list"></li>
+    <li><label for="input_email" >E-mail</label> <input name = "E-mail" type = "email" class="list"> </li>
+    <li><label for="input_celular" >Celular (99) 9999-99999 </label><input name = "Celular" type = "tel" class="list"></li>
+    <li><label for="input_assunto" >Assunto</label>
+      <select name = "Assunto" class= "list">
+        <option value="--Selecione--">--Selecione--</option>
+        <option value="Reclamação">Reclamação</option>
+        <option value="Sugestão">Sugestão</option></select></li>
+
+    <li><label for="input-text" >Mensagem</label>
+      <textarea class="list"></textarea>
+
+    </li>
+
+ <li> <fieldset>
+    <legend>Opção de Respota</legend>
+      <input name="E-mail" type = "checkbox" value = "E-mail"><span>E-mail</span>
+      <input name="Telefone" type = "checkbox" value = "Telefone"><span>Telefone</span>
+  </fieldset>
+  </li>
+  <br/>
+  <li>
+    <button type="submit" class = "botao">Enviar</button>
+  </li>
+
+
+  </ul>
+
+</form>
+
+<footer>
+
+  <a href="https://www.facebook.com/ifsppirituba"> <img src="Imagens/facebook.png" alt="Logo facebook" width="30px"></a>
+
+  <p><b>IFSP - Câmpus Pirituba </b> - Av. Mutinga, 951 - Jardim Santo Elias - <b>CEP</b>: 05110-000 - São Paulo/SP - <b>Contato:</b> (011)2504-0100 </p>
+
+</footer>
+</body>
+</html>
